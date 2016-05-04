@@ -19,15 +19,19 @@ PS D:\> .\azure_clean_resources_v2.ps1
 
 
 
+
 If you are not logged in, the script will ask you to login.
 
-![alt tag](images/login.png)
+
+-> ![alt tag](images/login.png) <-
+
 
 
 
 You will get then a list of all your resources, use CTRL and choose what you need to remove and click ok.
 
-![alt tag](images/resources.png)
+
+-> ![alt tag](images/resources.png) <-
 
 
 
