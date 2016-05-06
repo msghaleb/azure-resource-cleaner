@@ -20,15 +20,15 @@ PS D:\> .\azure_clean_resources_v2.ps1
 
 If you are not logged in, the script will ask you to login.
 
-->![alt text](images/login.png)<-
+![alt text](images/login.png)
 
 
 You will get then a list of all your resources, use CTRL and choose what you need to remove and click ok.
 
 
-->![alt text](images/resources.png)<-
+![alt text](images/resources.png)
 
 
-Found bugs? please mail them to me: mailto:mohamed.ghaleb@siemens.com
+Found bugs? pm me.
 
 Ref. inspired by: https://blogs.technet.microsoft.com/keithmayer/2014/03/26/step-by-step-cleaning-up-the-cloud-with-microsoft-azure-and-windows-powershell/
