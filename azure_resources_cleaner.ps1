@@ -38,7 +38,7 @@ $ErrorOccurred= 0
 # Check if you are logged into your Azure Subscription or even have Azure Powershell installed
 try
 {
-    Get-AzureRMContext | out-null 
+    Get-AzureRMContext | out-null
 }
 catch
 {
@@ -73,7 +73,7 @@ elseif ($ErrorMessage -like '*Object reference not set to an instance of an obje
 }
 
 #If another error accurred
-else
+elseif ($ErrorMessage)
 {
     write-host "An Error occurred, please fix the error and try again. Below is the Error message "
     write-host $ErrorMessage -ForegroundColor "Red"
